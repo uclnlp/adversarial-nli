@@ -1,0 +1,11 @@
+numpy
+nltk
+gensim
+redis
+tqdm
+flask
+pytest
+pytest-runner
+pytest-pep8
+pytest-xdist
+pytest-cov
