@@ -7,7 +7,7 @@ entails or contradicts the other, and the NLI model says "**sentence one** contr
 
 You know the model is making a mistake, because *contradiction is symmetric*, and if **sentence one** contradicts **sentence two**, then **sentence two** should contradict **sentence one** as well - if the model does not agree on this, then it is clearly making a mistake somewhere.
 
-Similarly, you can define other constraints/rules for other entailment relations. For instance, entailment is reflexive and transitive.
+Similarly, you can define other constraints/rules for other entailment relations. For instance, entailment is both reflexive (a **sentence** always entails itself) and transitive (if **s1** entails **s2** and **s2** entails **s3**, then **s1** entails **s3** as well).
 
 In this paper, we define:
 - A continuous _inconsistency loss_ measuring to which degree a given model violates a set of constraints,
