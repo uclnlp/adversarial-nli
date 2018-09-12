@@ -2,7 +2,7 @@
 
 Code for generating Adversarial examples for Neural NLI Models, by violating logic constraints. All methods are described in the CoNLL 2018 paper [Adversarially Regularising Neural NLI Models to Integrate Logical Background Knowledge](https://arxiv.org/abs/1808.08609).
 
-The idea used in this paper is the following - assume you have two sentences, *sentence one* and *sentence two*. You can ask a model whether one sentence
+The idea used in this paper is the following - assume you have two sentences, **sentence one** and **sentence two**. You can ask a model whether one sentence
 entails or contradicts the other, and the NLI model says "**sentence one** contradicts **sentence two**, but **sentence two** does not contradict **sentence one**".
 
 You know the model is making a mistake, because *contradiction is symmetric*, and if **sentence one** contradicts **sentence two**, then **sentence two** should contradict **sentence one** as well - if the model does not agree on this, then it is clearly making a mistake somewhere.
