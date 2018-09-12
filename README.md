@@ -10,7 +10,7 @@ You know the model is making a mistake, because *contradiction is symmetric*, an
 Similarly, you can define other constraints/rules for other entailment relations. For instance, entailment is both reflexive (a **sentence** always entails itself) and transitive (if **s1** entails **s2** and **s2** entails **s3**, then **s1** entails **s3** as well).
 
 In this paper, we define:
-- A continuous _inconsistency loss_ measuring to which degree a given model violates a set of constraints,
+- A continuous _inconsistency loss_ measuring to which degree a given model violates a set of logic constraints,
 - A method for systematically generating _adversarial examples_, by violating such constraints,
 - A set of _adversarial datasets_ for measuring the robustness of NLI models to such adversarial examples, and
 - An adversarial training procedure for training models that are more robust to such adversarial examples.
