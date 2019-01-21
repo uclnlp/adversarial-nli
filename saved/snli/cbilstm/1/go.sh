@@ -1,0 +1,1 @@
+python3 ./bin/nli-cli.py -m cbilstm -b 32 -d 0.8 -r 300 -o adam --lr 0.001 -c 100 -e 100 --glove $HOME/data/glove/glove.840B.300d.txt --save saved/snli/cbilstm/1/cbilstm > saved/snli/cbilstm/1/go.out 2>&1
